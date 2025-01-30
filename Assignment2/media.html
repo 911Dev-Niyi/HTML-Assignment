@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Powerful Message</title>
+</head>
+<body>
+  <nav>
+    <p><a href="../Index.html" style="text-decoration: none;">&lt;Home</a></div></p>
+    <p><a href="./Table.html" target="_self" title="" style="text-decoration: none;"><b>Table&gt;</b></a></p>
+  </nav>
+<!-- Header section -->
+ <header>
+    <h1>Welcome to my world</h1>
+    <blockquote>"Failure is simply feedback,teaaching you the ways that don't work so you can discover the path that does"</blockquote>
+ </header>
+ <!-- Picture element for responsiveness -->
+  <section>
+    <h2>About Me</h2>
+    <picture>
+        <!-- Mobile view -->
+        <source srcset="./Assets/Images/small.jpeg" media="(max-width: 600px)" width="250px" height="450px">
+        <!-- Tablet view -->
+        <source srcset="./Assets/Images/medium.jpeg" media="(max-width: 1024px)" width="400px" height="500px">
+        <!-- Laptop/Desktop view -->
+        <source srcset="./Assets/Images/large.jpeg" media="(min-width: 1025px)" height="700px" width="800px">
+        <!--Fallback image -->
+        <img src="large.jpg" alt="Fallback image">
+    </picture>
+    <p><b>I believe there's nothing you can't do, you just don't want it enough</b></p>
+    
+  </section>
+  <section>
+    <!-- Audio section -->
+    <h2>My soundtrack</h2>
+    <audio controls>
+        <source src="./Assets/Audio/Dave-Ft-Central-Cee-Our-25th-Birthday.mp3" type="audio/mp3">
+        Your browser does not support the audio tag
+    </audio>
+    <p><b>This song resonates with my journey</b></p>
+  </section>
+  <!-- Video -->
+  <section>
+    <video controls src="./Assets/Video/Inspirational video.mp4" type="video">
+        your browser does not support the video tag
+    </video>
+  </section>
+  <!--Iframe-->
+  <section>
+    <h2> A Youtube video i really like</h2>
+    <iframe width="350" height="350" src="https://www.youtube.com/embed/3FrGdO6vg6s" title="SIDEMEN AMONG US XMAS CHAOS MODE: HYPNOTIST EDITION" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>>
+  </section>
+  <!-- Embed -->
+   <section>
+    <h2>A book that changed my life</h2>
+    <embed src="./Assets/documents/_OceanofPDF.com_The_Richest_Man_in_Babylon_-_George_S_Clason.pdf" type="application/pdf" width="600" height="400">
+   </section>
+   <!-- Footer -->
+    <footer>
+        <p>Created by Adeniyi Anjorin|Let's keep growing</p>
+    </footer>
+</body>
+</html>
